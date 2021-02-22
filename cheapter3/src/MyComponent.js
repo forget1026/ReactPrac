@@ -1,7 +1,9 @@
 import React from 'react';
 
 const MyComponent = props => {
-    return  <div> 나의 새롭고 멋진 {props.name} 컴포넌트 </div>;
+    return  <div> 안녕하세요. 제 이름은 {props.name}입니다. <br />
+        Children 값은 {props.children} 입니다.
+     </div>;
 };
 
 MyComponent.defaultProps = {
